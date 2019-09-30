@@ -1,0 +1,7 @@
+{
+  "name": "pcs.js",
+  "version": "1.0.0",
+  "description": "A simple wrapper to set color themes based on prefers-color-scheme",
+  "author": "Bjorn Lu",
+  "license": "MIT"
+}
