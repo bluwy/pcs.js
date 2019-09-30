@@ -3,5 +3,15 @@
   "version": "1.0.0",
   "description": "A simple wrapper to set color themes based on prefers-color-scheme",
   "author": "Bjorn Lu",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d lib && uglifyjs lib/pcs.js -o lib/pcs.min.js -c -m && gzip lib/pcs.min.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "gzip-cli": "^1.0.1",
+    "uglify-js": "^3.6.0"
+  }
 }
