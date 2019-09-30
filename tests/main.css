@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #47a;
+  --light-color: #efefef;
+  --dark-color: #111;
+}
+
+* {
+  transition: all .3s ease;
+}
+
+body {
+  color: var(--dark-color);
+  background-color: var(--light-color)
+}
+
+h1 {
+  color: var(--primary-color);
+}

@@ -1,0 +1,6 @@
+# Dependencies
+node_modules
+
+# Editor
+.vscode
+*.code-workspace
