@@ -8,10 +8,10 @@
     "build": "babel src -d lib && uglifyjs lib/pcs.js -o lib/pcs.min.js -c -m && gzip lib/pcs.min.js"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.2",
+    "@babel/cli": "^7.19.3",
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
-    "gzip-cli": "^1.0.1",
+    "gzip-cli": "^1.2.0",
     "uglify-js": "^3.6.0"
   }
 }
